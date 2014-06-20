@@ -76,7 +76,7 @@ hi VertSplit        guifg=#202020     guibg=#202020     gui=NONE      ctermfg=da
 hi StatusLine       guifg=#CCCCCC     guibg=#202020     gui=italic    ctermfg=white       ctermbg=darkgray    cterm=NONE
 hi StatusLineNC     guifg=black       guibg=#202020     gui=NONE      ctermfg=blue        ctermbg=darkgray    cterm=NONE
 
-hi Folded           guifg=#a0a8b0     guibg=#384048     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
+hi Folded           guifg=#a0a8b0     guibg=#080810     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 hi Title            guifg=#f6f3e8     guibg=NONE        gui=bold      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 hi Visual           guifg=NONE        guibg=#262D51     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=REVERSE
 
@@ -102,10 +102,10 @@ if version >= 700 " Vim 7.x specific colors
   hi PmenuSel       guifg=#000000     guibg=#cae682     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
   hi Search         guifg=NONE        guibg=#2F2F00     gui=underline ctermfg=NONE        ctermbg=NONE	      cterm=underline
   if has('folding')
-      hi FoldColumn guifg=#a0a8b0     guibg=black       gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
+      hi FoldColumn guifg=#a0a8b0     guibg=#080810     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
   endif
   if has('signs')
-      hi SignColumn guifg=#3D3D3D     guibg=black       gui=NONE      ctermfg=darkgray    ctermbg=NONE        cterm=NONE
+      hi SignColumn guifg=#FFD2A7     guibg=black       gui=NONE      ctermfg=darkgray    ctermbg=NONE        cterm=NONE
   endif
 endif
 
